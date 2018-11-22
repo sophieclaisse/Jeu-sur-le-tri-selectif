@@ -19,11 +19,8 @@ Tab.push(new obj("visuels2/pot_plastique(M).jpg", "marron"));
 console.log(Tab);
 
 
-var random= Math.round(Math.random()*9); //CHOISIR UN CHIFFRE ENTRE 0 et 9
+var random = Math.round(Math.random() * 9); //CHOISIR UN CHIFFRE ENTRE 0 et 9
 console.log(random);
-
-//document.getElementById("random").innerHTML= Tab[random].Dechet;
-
 
 
 document.getElementById("play").addEventListener("click", function (){
@@ -89,3 +86,4 @@ document.getElementById("marron").addEventListener("click", function(){
         document.getElementById("points").innerHTML="0";
     }
 });
+
